@@ -1,0 +1,31 @@
+td{
+    text-align: center;
+}
+td {
+    height: 40px;
+}
+td:4th-child{
+    background-color: #D6EEEE;
+}
+tr:hover {
+    background-color: coral;
+}
+tr {
+    border-bottom: 1px solid #ddd;
+}
+body {
+    
+    border: 50px solid rgb(242, 240, 240); 
+    margin: 5;
+    align-items: center;               
+    height: 100vh;              
+    box-sizing: border-box;
+  }
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    background: #fcfbfb;
+
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 5.1</title>
+    <link rel="stylesheet" href="./styletask1.css">
+</head>
+<body>
+    <form action="">
+        <h1>Novell Services Login </h1>
+        <table class="center">
+            <tr>
+                <td>User Name : </td>
+                <td>
+                    <input type="text" required size="30" maxlength="30" name="User Name">
+                </td>
+            </tr>
+            <tr>
+                <td>Password : </td>
+                <td>
+                    <input type="password" required name="Password" size="30" maxlength="30">
+                </td>
+            </tr>
+            <tr >
+                <td>City of <br>Emplyment  </td>
+                <td>
+                    <input type="text" name="City of Emplyment" size="30" maxlength="30">
+                </td>
+                <td></td>
+                <!-- <td >
+                   <select name="-city-" multiple size="3">
+                    <option value="Quetta"> Quetta </option>
+                    <option value="Karachi"> Karachi </option>
+                    <option value="Lahore"> Lahore </option>
+                    <option value="Peshawer"> Peshawer </option>
+                    <option value="Islamabad"> Islamabad </option>
+                    <option value="Loralai"> Loralai </option>
+                   </select> -->
+                </td>
+            </tr>
+            <tr>
+                <td>Web Server : </td>
+                <td>
+                    <select name="-Web Server-">
+                        <option value="-Choose a Server-">-Choose a Server-</option>
+                        <option value="Caddy">Caddy</option>
+                        <option value="Jetty">Jetty</option>
+                        <option value="Node.js">Node.js</option>
+                        <option value="OpenLiteSpeed">OpenLiteSpeed</option>
+                        <option value="Apache Tomcat">Apache Tomcat</option>
+                    </select>
+                </td>
+            </tr>
+            <!-- <tr>
+                <td>
+
+                    Choose a car : 
+                </td>
+                <td>
+                    <label for="cars"></label>
+                    <select name="cars" id="cars">
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                </td>
+            </tr> -->
+            <tr>
+                <td>Please specify <br>your role : </td>
+                <td>
+                    <input type="radio" name="role" value="Admin">Admin <br>
+                    <input type="radio" name="role" value="Manager">Manager <br>
+                    <input type="radio" name="role" value="Engineer">Engineer <br>
+                    <input type="radio" name="role" value="Guest">Guest
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Single Sign-on <br>to the following : </td>
+                <td>
+                    <input type="checkbox" name="Mail" value="Mail"> Mail <br>
+                    <input type="checkbox" name="Payroll" value="Payroll"> Payroll <br>
+                    <input type="checkbox" name="Self-service" value="Self-service"> Self-sercice 
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Login">
+                    &emsp;
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
